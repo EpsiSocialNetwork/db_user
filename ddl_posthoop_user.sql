@@ -84,4 +84,4 @@ CREATE VIEW "v1_0"."follow" AS
   select uid_user, follow_uid_user, created_at
   from posthoop_user.follow;
 
-ALTER VIEW "v1_0"."user" OWNER TO posthoop_view;
+ALTER VIEW "v1_0"."follow" OWNER TO posthoop_view;
